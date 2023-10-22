@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{title}</title>
+
+    <!-- Used to add dark mode right away, adding here prevents any flicker -->
+    <script>
+        window.day = true;
+        if (typeof(Storage) !== "undefined") {
+            if(localStorage.getItem('dark') && localStorage.getItem('dark') == 'true'){
+                document.documentElement.classList.add('dark');
+                window.day = false;
+            }
+        }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&display=swap" rel="stylesheet">
+
+    <meta property="og:url" content="https://boxed.devdojo.io">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Boxed Template">
+    <meta property="og:image" content="https://boxed.devdojo.io/assets/images/cover.jpg">
+    <meta property="og:image:alt" content="A screenshot view of the boxed template">
+    <meta property="og:description" content="A simple blog and personal template">
+    <meta property="og:site_name" content="Boxed Template">
+    <meta property="og:locale" content="en_US">
+
+    <style>
+        [x-cloak]{display:none}
+        .prose img{
+            border-radius: 3px;
+        }
+        h1, h2, h3, h4, h5, h6{
+            font-family: 'Oswald', sans-serif;
+        }
+        .oswald{
+            font-family: 'Oswald', sans-serif;
+        }
+    </style>
+    <link rel="icon" type="image/x-icon" href="/assets/images/favicon.png">
+    {tailwindcss}
+</head>
+<body class="sm:pl-[47px] antialiased bg-white dark:bg-black xl:pl-0">
+
+    <include src="sidebar.html"></include>
+    <include src="sidebar-menu.html"></include>
+    <include src="header.html"></include>
+    {slot}
+    <include src="footer.html"></include>
+    <script src="/assets/js/main.js"></script>
+
+</body>
+
+</html>
