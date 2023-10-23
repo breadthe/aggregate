@@ -15,54 +15,16 @@
                 </tr>
             </thead>
             <tbody>
-                <tr>
-                    <td class="px-4 py-2">
-                        <a href="https://madewithsvelte.com/" class="text-blue-600 underline" target="_blank">Made with Svelte</a>
-                    </td>
-                    <td class="px-4 py-2">
-                        <a href="https://svelte.dev/" class="text-blue-600 underline" target="_blank">Svelte</a>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="px-4 py-2">
-                        <a href="https://madewithtauri.com/" class="text-blue-600 underline" target="_blank">Made with Tauri</a>
-                    </td>
-                    <td class="px-4 py-2">
-                        <a href="https://tauri.studio/" class="text-blue-600 underline" target="_blank">Tauri</a>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="px-4 py-2">
-                        <a href="https://madewithlaravel.com/" class="text-blue-600 underline" target="_blank">Made with Laravel</a>
-                    </td>
-                    <td class="px-4 py-2">
-                        <a href="https://laravel.com/" class="text-blue-600 underline" target="_blank">Laravel</a>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="px-4 py-2">
-                        <a href="https://wireinthewild.com/" class="text-blue-600 underline" target="_blank">Made with Laravel Livewire</a>
-                    </td>
-                    <td class="px-4 py-2">
-                        <a href="https://livewire.laravel.com/" class="text-blue-600 underline" target="_blank">Livewire</a>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="px-4 py-2">
-                        <a href="https://builtwithjigsaw.com/" class="text-blue-600 underline" target="_blank">Built with Jigsaw</a>
-                    </td>
-                    <td class="px-4 py-2">
-                        <a href="https://jigsaw.tighten.com/" class="text-blue-600 underline" target="_blank">Jigsaw</a> for <a href="https://laravel.com/" class="text-blue-600 underline" target="_blank">Laravel</a>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="px-4 py-2">
-                        <a href="https://madewithvuejs.com/" class="text-blue-600 underline" target="_blank">Made with Vue.js</a>
-                    </td>
-                    <td class="px-4 py-2">
-                        <a href="https://vuejs.org/" class="text-blue-600 underline" target="_blank">Vue.js</a>
-                    </td>
-                </tr>
+                <ForEach collection="page/aggregators" as="aggregator">
+                    <tr>
+                        <td class="px-4 py-2">
+                            <a href="{aggregator.link}" class="text-blue-600 underline" target="_blank">{aggregator.link_name}</a>
+                        </td>
+                        <td class="px-4 py-2">
+                            <a href="{aggregator.framework_link}" class="text-blue-600 underline" target="_blank">{aggregator.framework_name}</a>
+                        </td>
+                    </tr>
+                </ForEach>
             </tbody>
         </table>
     </section>

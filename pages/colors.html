@@ -15,30 +15,16 @@
                 </tr>
             </thead>
             <tbody>
-                <tr>
-                    <td class="px-4 py-2">
-                        <a href="https://iamkate.com/data/12-bit-rainbow/" class="text-blue-600 underline" target="_blank">The 12-bit rainbow palette</a>
-                    </td>
-                    <td class="px-4 py-2">
-                        2-bit rainbow palette consisting of 12 colors chosen with consideration for how we perceive luminance, chroma, and hue.
-                    </td>
-                </tr>
-                <tr>
-                    <td class="px-4 py-2">
-                        <a href="https://adamfuhrer.com/visualizing-every-pantone-color-of-the-year" class="text-blue-600 underline" target="_blank">Pantone color of the year</a>
-                    </td>
-                    <td class="px-4 py-2">
-                        Visualizing Every Pantone Color of the Year - 22 Colors From 2000-2020.
-                    </td>
-                </tr>
-                <tr>
-                    <td class="px-4 py-2">
-                        <a href="https://coolors.co/" class="text-blue-600 underline" target="_blank">Coolors</a>
-                    </td>
-                    <td class="px-4 py-2">
-                        Color palette generator.
-                    </td>
-                </tr>
+                <ForEach collection="page/colors" as="color">
+                    <tr>
+                        <td class="px-4 py-2">
+                            <a href="{color.link}" class="text-blue-600 underline" target="_blank">{color.link_name}</a>
+                        </td>
+                        <td class="px-4 py-2">
+                            {color.description}
+                        </td>
+                    </tr>
+                </ForEach>
             </tbody>
         </table>
     </section>

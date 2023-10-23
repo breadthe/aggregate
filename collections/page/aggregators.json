@@ -1,0 +1,38 @@
+[
+    {
+        "link": "https://madewithsvelte.com/",
+        "link_name": "Made with Svelte",
+        "framework_link": "https://svelte.dev/",
+        "framework_name": "Svelte"
+    },
+    {
+        "link": "https://madewithtauri.com/",
+        "link_name": "Made with Tauri",
+        "framework_link": "https://tauri.studio/",
+        "framework_name": "Tauri"
+    },
+    {
+        "link": "https://madewithlaravel.com/",
+        "link_name": "Made with Laravel",
+        "framework_link": "https://laravel.com/",
+        "framework_name": "Laravel"
+    },
+    {
+        "link": "https://wireinthewild.com/",
+        "link_name": "Made with Laravel Livewire",
+        "framework_link": "https://livewire.laravel.com/",
+        "framework_name": "Livewire"
+    },
+    {
+        "link": "https://builtwithjigsaw.com/",
+        "link_name": "Built with Jigsaw",
+        "framework_link": "https://jigsaw.tighten.com/",
+        "framework_name": "Jigsaw for Laravel"
+    },
+    {
+        "link": "https://madewithvuejs.com/",
+        "link_name": "Made with Vue.js",
+        "framework_link": "https://vuejs.org/",
+        "framework_name": "Vue.js"
+    }
+]

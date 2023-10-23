@@ -1,0 +1,17 @@
+[
+    {
+        "link": "https://iamkate.com/data/12-bit-rainbow/",
+        "link_name": "The 12-bit rainbow palette",
+        "description": "2-bit rainbow palette consisting of 12 colors chosen with consideration for how we perceive luminance, chroma, and hue."
+    },
+    {
+        "link": "https://adamfuhrer.com/visualizing-every-pantone-color-of-the-year",
+        "link_name": "Pantone color of the year",
+        "description": "Visualizing Every Pantone Color of the Year - 22 Colors From 2000-2020."
+    },
+    {
+        "link": "https://coolors.co/",
+        "link_name": "Coolors",
+        "description": "Color palette generator."
+    }
+]
