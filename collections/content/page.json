@@ -1,0 +1,16 @@
+[
+  {
+    "title": "Stack aggregators",
+    "description": "A list of tech stack aggregators - sites that collect links for apps/sites/tools/etc that are build with a specific tech stack or technology.",
+    "dateFormatted": "October 22nd, 2023",
+    "image": "/assets/images/posts/code-canvas.jpg",
+    "link": "/aggregators"
+  },
+  {
+    "title": "Colors",
+    "description": "colors.",
+    "dateFormatted": "October 22nd, 2023",
+    "image": "/assets/images/posts/dev-design.jpg",
+    "link": "/colors"
+  }
+]

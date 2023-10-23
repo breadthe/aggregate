@@ -4,6 +4,14 @@
         "url" : "/"
     },
     {
+        "name" : "Aggregators",
+        "url" : "/aggregators"
+    },
+    {
+        "name" : "Colors",
+        "url" : "/colors"
+    },
+    {
         "name" : "About",
         "url" : "/about"
     }
