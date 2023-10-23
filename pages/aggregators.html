@@ -1,9 +1,9 @@
-<layout src="main.html" title="Stack aggregators">
+<layout src="main.html" title="🥞 Stack aggregators">
 
     <section class="relative z-20 w-full px-6 py-12 mx-auto border-b border-l border-r border-black dark:border-white lg:max-w-2xl lg:border-b-0 lg:border-l-0 lg:border-r-0 7 lg:px-0">
         <include
             src="page-heading.html"
-            title="Stack aggregators"
+            title="🥞 Stack aggregators"
             description="A bit meta, but... here's a list of tech stack aggregators. In other words sites that collect links for apps/sites/tools/etc that are build with a specific tech stack or technology."
         ></include>
 
@@ -11,12 +11,12 @@
             <thead>
                 <tr class="text-left">
                     <th class="px-4 py-2">Aggregator</th>
-                    <th class="px-4 py-2">Made with</th>
+                    <th class="px-4 py-2">Framework/stack</th>
                 </tr>
             </thead>
             <tbody>
                 <ForEach collection="page/aggregators" as="aggregator">
-                    <tr>
+                    <tr class="align-top">
                         <td class="px-4 py-2">
                             <a href="{aggregator.link}" class="text-blue-600 underline" target="_blank">{aggregator.link_name}</a>
                         </td>
