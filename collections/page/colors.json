@@ -10,6 +10,36 @@
         "description": "Visualizing Every Pantone Color of the Year - 22 Colors From 2000-2020."
     },
     {
+        "link": "https://pigment.shapefactory.co/",
+        "link_name": "Pigment by ShapeFactory",
+        "description": "⭐️ Simple color palette generator."
+    },
+    {
+        "link": "https://2colors.colorion.co/",
+        "link_name": "Two Color Combinations",
+        "description": "Hand picked combinations of 2 colors that look good together."
+    },
+    {
+        "link": "https://colorgen.dev/",
+        "link_name": "Colors Generator",
+        "description": "Generate color scheme from photos and use them in TailwindCSS."
+    },
+    {
+        "link": "https://javisperez.github.io/tailwindcolorshades/",
+        "link_name": "Tailwind Color Shades Generator",
+        "description": "Tailwind Color Shades Generator."
+    },
+    {
+        "link": "https://tailwind.ink/",
+        "link_name": "Tailwind Ink",
+        "description": "Color palette generator for Tailwind CSS."
+    },
+    {
+        "link": "https://vanilla-picker.js.org/",
+        "link_name": "vanilla-picker",
+        "description": "A simple, easy to use vanilla JS (no dependencies) color picker with alpha selection."
+    },
+    {
         "link": "https://coolors.co/",
         "link_name": "Coolors",
         "description": "Color palette generator."

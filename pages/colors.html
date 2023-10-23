@@ -1,9 +1,9 @@
-<layout src="main.html" title="Colors">
+<layout src="main.html" title="🌈 Colors">
 
     <section class="relative z-20 w-full px-6 py-12 mx-auto border-b border-l border-r border-black dark:border-white lg:max-w-2xl lg:border-b-0 lg:border-l-0 lg:border-r-0 7 lg:px-0">
         <include
             src="page-heading.html"
-            title="Colors"
+            title="🌈 Colors"
             description="Colors. Color theory. Swatches. Gradients. Palette generators. I love color - you should too."
         ></include>
 
@@ -16,7 +16,7 @@
             </thead>
             <tbody>
                 <ForEach collection="page/colors" as="color">
-                    <tr>
+                    <tr class="align-top">
                         <td class="px-4 py-2">
                             <a href="{color.link}" class="text-blue-600 underline" target="_blank">{color.link_name}</a>
                         </td>
