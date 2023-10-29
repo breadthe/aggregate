@@ -1,18 +1,18 @@
 [
     {
         "name" : "Home",
-        "url" : "/"
+        "url" : "./"
     },
     {
         "name" : "Aggregators",
-        "url" : "/aggregators"
+        "url" : "./aggregators"
     },
     {
         "name" : "Colors",
-        "url" : "/colors"
+        "url" : "./colors"
     },
     {
         "name" : "About",
-        "url" : "/about"
+        "url" : "./about"
     }
 ]
